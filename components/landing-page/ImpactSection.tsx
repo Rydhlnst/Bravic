@@ -2,7 +2,7 @@
 
 import React, { useState, memo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Zap, ArrowUpRight, BarChart3 } from "lucide-react";
+import { Zap, ArrowUpRight, BarChart } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { SectionHeader, SectionBadge } from "./SectionHeader";
@@ -128,7 +128,7 @@ export const ImpactSection = () => {
                 {/* Header - Standar dengan align center */}
                 <div className="mb-14">
                     <SectionHeader
-                        badge={{ icon: BarChart3, text: "Impact" }}
+                        badge={{ icon: BarChart, text: "Impact" }}
                         title="B2B Made Simple."
                         highlight="Growth Made Inevitable."
                         align="center"

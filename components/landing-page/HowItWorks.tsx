@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import {
     Link2,
     RefreshCw,
-    BarChart3,
+    BarChart,
     Settings
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -30,7 +30,7 @@ const steps = [
         id: "track",
         title: "Sell & Track Performance",
         description: "Manage orders, monitor sales, and see customer insights. All in one place.",
-        icon: BarChart3,
+        icon: BarChart,
         badge: "Real-time"
     },
 ];
@@ -204,7 +204,7 @@ const TrackVisual = memo(() => {
                     </p>
                 </div>
                 <div className="p-1.5 bg-primary/10 rounded-lg border border-primary/20">
-                    <BarChart3 className="w-3.5 h-3.5 text-primary" />
+                    <BarChart className="w-3.5 h-3.5 text-primary" />
                 </div>
             </div>
 
